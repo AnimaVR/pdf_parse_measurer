@@ -6,7 +6,6 @@ import os
 import glob
 from datetime import datetime
 
-# Import helper functions from our split modules
 from pdf_parser import (
     extract_page_text,
     process_page_images,
